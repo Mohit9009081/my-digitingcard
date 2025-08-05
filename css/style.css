@@ -1,0 +1,140 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ outline: unset;
+
+
+}
+body{
+    font-family: "Mulish", sans-serif;
+    padding: 10px 10px;
+    background-color: brown;
+
+
+}
+.mobile-container{
+    max-width: 430px;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: antiquewhite;
+    min-height: 100vh;
+    margin: 0 auto;
+    border-radius: 16px;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+    
+}
+.profile-info{
+    text-align: center;
+    background-color: rgba(10, 110, 77, 0.993);
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    
+}
+.name{
+    margin-bottom: 5px;
+    color: #fff;
+}
+.post{
+ margin-bottom: 20px;
+  color: #fff;
+
+}
+.icons{
+    display: inline-flex;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 16px;
+   
+
+}
+.icons.whatsapp{
+    color:#fff;
+    background-color: #2ec857;
+}
+.icons.facebook{
+    color:#fff;
+    background-color: #0000ff;
+
+}
+.icons.instagram{
+     color:#fff;
+    background-color:#f31616;
+
+}
+.lorem{
+    display: flex;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 18px;
+    padding: 15px 15px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(202, 217, 243, 0.45);
+   border-radius: 16px;
+    margin-bottom: 20px;
+}
+.contect-info{
+    padding: 20px;
+  background-color: #560707;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.contect{
+    background-color: #fff;
+    padding: 20px 50px;
+     font-size: 30px;
+     border-radius: 16px;
+     color: #17d549;
+     margin-bottom: 20px;
+     
+}
+.contect a{
+    display: flex;
+    gap: 20px;
+   
+}
+.contect i{
+    font-size: 30px;
+    background-color: #f31616;
+    padding: 5px;
+    border-radius: 100%;
+}
+.email{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 16px;
+    color: #17d549;
+    display: flex;
+    gap: 10px;
+    
+  
+    
+}
+.email i{
+     font-size: 30px;
+    background-color: #f31616;
+    padding: 5px;
+    border-radius: 100%;
+  
+}
+.address{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.map{
+
+    width: 410px;
+    height: 400px;
+    background-color: #19e01f;
+    padding: 10px;
+    border-radius: 16px;
+}
